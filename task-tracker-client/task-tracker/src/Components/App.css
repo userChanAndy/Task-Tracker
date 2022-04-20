@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5;
+  font-family: sans-serif;
+}
+
+.complete {
+  background-color: greenyellow;
+  width: fit-content;
+}
+
+.incomplete {
+  width: fit-content;
+  background-color: red;
+}
+
+#createUserName {
+  display: flex;
+}
