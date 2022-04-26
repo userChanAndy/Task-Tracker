@@ -15,6 +15,7 @@ class ApplicationController < Sinatra::Base
     else
       user.errors.full_messages.to_json
     end
+    
   end
 
   patch "/users/:id" do
