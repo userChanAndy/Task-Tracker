@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 function Login({
   addNewUser,
@@ -56,6 +56,8 @@ function Login({
       usersArr.find((users) => {
         if (e.target.value === users.username) {
           return users;
+        } else {
+          return null;
         }
       })
     );
